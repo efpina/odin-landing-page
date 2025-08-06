@@ -1,0 +1,23 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-one,
+.footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.hero > .hero-main {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero > .hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
