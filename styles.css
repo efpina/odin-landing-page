@@ -4,8 +4,8 @@ body {
 
 .section-one,
 .footer {
-    background-color: #1F2937;
-    color: #f9faf8;
+    background-color: #321f37;
+    color: #faf8fa;
     display: flex;
 }
 
@@ -33,7 +33,7 @@ body {
 .header-link-list a {
     text-decoration: none;
     font-size: 18px;
-    color: #e5e7eb;
+    color: #e9e5eb;
 }
 
 .sec1-content {
@@ -50,12 +50,39 @@ body {
 
 .hero > .hero-secondary {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #e9e5eb;
 }
 
 .hero-button {
-    background-color: #3882f6;
+    background-color: #b438f6;
     color: #fff;
 
     padding: 10px;
+}
+
+/* Quote section */
+.section-three {
+    background-color: #e9e5eb;
+    padding: 100px 130px;
+}
+
+.section-three > .quote {
+    text-align: center;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #321f37;
+}
+
+.section-three > .attribution {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.footer {
+    padding: 50px 120px;
+    align-items: center;
+    justify-content: center;
 }
