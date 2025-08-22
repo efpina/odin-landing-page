@@ -53,11 +53,26 @@ body {
     color: #e9e5eb;
 }
 
-.hero-button {
+.button {
     background-color: #b438f6;
     color: #fff;
 
     padding: 10px;
+}
+
+.section-two {
+    padding: 50px;
+    text-align: center;
+}
+
+.instrument-subsection {
+    display: flex;
+    flex-direction: row;
+}
+
+.instrument-image {
+    border: #b438f6 4px solid;
+    border-radius: 15px;
 }
 
 /* Quote section */
@@ -79,6 +94,25 @@ body {
     margin-top: 20px;
     font-weight: bold;
     font-size: 30px;
+}
+
+.section-four {
+    padding: 100px 150px;
+}
+
+.section-four > .subsection {
+    border: #321f37 6px solid;
+    background-color: #b438f6;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 15px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.button.four {
+    margin-left: auto;
 }
 
 .footer {
